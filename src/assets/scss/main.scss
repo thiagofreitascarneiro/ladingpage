@@ -1,0 +1,44 @@
+@import 'variables';
+
+body, h1, h2, ul, li, p {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.button {
+    width: 133px;
+    height: 52px;    
+    background: #96BB7C;
+    border-radius: 5px; 
+    border: none;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+
+    @media(max-width: 470px) {
+        margin-top: 40px;
+    }
+}
+
+.transparent-button {
+    width: 162px;
+    height: 52px;
+    border: 1px solid #96BB7C;
+    border-radius: 5px;
+    cursor: pointer; 
+    background-color: transparent;
+    font-family: 'Montserrat';
+    color: $colorSecondary;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    @media(max-width: 768px) {
+        margin-top: 30px;
+    }
+}
+

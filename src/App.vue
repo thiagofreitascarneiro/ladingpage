@@ -1,22 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <BlogHome/>
+    <BlogPackage/>
+    <BlogVideo/>
+    <BlogPrice/>
+    <BlogClient/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BlogHome from './components/BlogHome.vue'
+import BlogPackage from './components/BlogPackage.vue';
+import BlogVideo from './components/BlogVideo.vue';
+import BlogPrice from './components/BlogPrice.vue';
+import BlogClient from './components/BlogClient.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BlogHome,
+    BlogPackage,
+    BlogVideo,
+    BlogPrice,
+    BlogClient
   }
 }
 </script>
 
 <style lang="scss">
+@import "../src/assets/scss/main.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
