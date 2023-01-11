@@ -40,7 +40,7 @@ export default {
 
   .home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   .right-learning-home {
     display: flex;
     text-align: center;

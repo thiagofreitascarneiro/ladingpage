@@ -11,7 +11,7 @@
                     <p >Nossos certificados </p>
                     <img src="../../public/images/seta.png">
                 </div>
-               >
+               
             </div>
             <div class="right-content">
                 <div class="certified">

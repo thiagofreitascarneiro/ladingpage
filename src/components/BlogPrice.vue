@@ -246,11 +246,11 @@ export default {
                     align-items: center;
                     padding: 0px;
                     width: 255px;
-                    height: 240px;
+                    height: 140px;
                     justify-content: space-between;
 
                     p {
-                        width: 180px;
+                        width: 200px;
                         height: 28px;
                         font-family: 'Montserrat';
                         font-style: normal;
@@ -307,6 +307,7 @@ export default {
                         letter-spacing: 0.1px;
                         color: #ffffff;
                         margin-top: 3px;
+                        
                     }
                 }
                 .price {
